@@ -1,2 +1,2 @@
 # docker-bash
-Docker quickscripts
+Quick Docker scripts.
