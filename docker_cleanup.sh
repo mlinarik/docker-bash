@@ -21,6 +21,7 @@ elif [[ $option -eq 3 ]];
 then
     echo "Image Delete"
     docker rmi $(docker images | grep "none" | awk '/ / { print $3 }')
+    docker image prune -a
 elif [[ $option -eq 4 ]];
 then
     echo "Containers Delete"
